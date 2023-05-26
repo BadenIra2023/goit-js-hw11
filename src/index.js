@@ -1,4 +1,4 @@
-import "./styles.css ";
+import "./styles.css";
 import { fetchPixabay } from "./fetchCountries";
 import { createMarkupCards } from "./createMarkup";
 import { Notify } from "notiflix/build/notiflix-notify-aio";
