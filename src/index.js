@@ -29,7 +29,8 @@ async function onInput(event) {
  const {
     elements: { searchQuery },
   } = event.currentTarget;
-  inputName = searchQuery.value.trim();
+  console.log(searchQuery)
+  const inputName = searchQuery.value.trim();
   console.log(inputName)
   if (inputName === "")
   { 
